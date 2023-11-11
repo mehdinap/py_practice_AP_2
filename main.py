@@ -11,4 +11,7 @@ if __name__ == "__main__":
     std1.print_info()
     std2.print_info()
 
-
+    lab = Lab("aaaaa", "shanbeh")
+    lab.student.append(std1)
+    lab.student.append(std2)
+    lab.print_lab_info()
